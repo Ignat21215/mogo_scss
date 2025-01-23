@@ -1,8 +1,7 @@
 :root {
-    --green-text-color: #95E1D3;
-    --red-text-color: #F38181;
-    --black-text-color: #333333;
-    --grey-text-color: #B6B6B6;
+    --header-text-color: #95E1D3;
+    --focus-important-color: #F38181;
+    --titles-color: #333333;
+    --paragraph-color: #B6B6B6;
     --background-color: #FFFFFF;
-    --clear-black-color: #000000;
 }
