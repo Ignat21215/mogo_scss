@@ -5,3 +5,8 @@
     --paragraph-color: #B6B6B6;
     --background-color: #FFFFFF;
 }
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "Roboto", sans-serif;
+  --third-family: "Kaushan Script", sans-serif;
+}
