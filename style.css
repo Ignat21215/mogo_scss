@@ -1,15 +1,61 @@
 :root {
-    --nav-text-color: #95E1D3;
-    --focus-text-color: #F38181;
-    --titles-color: #333333;
-    --paragraph-color: #B6B6B6;
-    --background-color: #FFFFFF;
-}
-:root {
+    --nav-text-color: rgba(149, 225, 211, 1);
+    --focus-text-color: rgba(243, 129, 129, 1);
+    --titles-color: rgba(51, 51, 51, 1);
+    --paragraph-color: rgba(182, 182, 182, 1);
+    --background-color: rgba(255, 255, 255, 1);
   --font-family: "Montserrat", sans-serif;
   --second-family: "Roboto", sans-serif;
   --third-family: "Kaushan Script", sans-serif;
 }
 body {
  font-family: var(--font-family)
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* .header {
+  margin-top: 17px;
+  margin-bottom: 68px;
+} */
+.header-nav {
+  padding-top: 15;
+}
+.header-logo {
+  padding-bottom: 12px;
+}
+/* .hero-subtitle {
+  margin-bottom: 20px;
+}
+.hero-title {
+  margin-bottom: 109px;
+} */
+.hero-item:nth-child(n+4) {
+  /* margin-top: 100px; */
+  padding-bottom: 100px;
+}
+/* .team-subtitle {
+  margin-bottom: 17px;
+}
+.team-title {
+  margin-bottom: 85px;
+}
+.team-desc {
+  margin-bottom: 27px;
+}
+.article-title {
+  margin-top: 30px;
+  margin-bottom: 11px;
+} */
+.article-desc {
+  padding-bottom: 80px;
+}
+.footer-desc {
+  padding-top: 22px;
+  padding-bottom: 20px;
+}
+.footer-button {
+  padding-top: 9px;
+  padding-bottom: 10px;
 }
