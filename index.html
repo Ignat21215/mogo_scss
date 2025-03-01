@@ -1,127 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MoGo</title>
-    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-</head>
-<body>
-    
-<header class="header">
-    <div class="container">
-    <a href="index.html" class="header-logo">MoGo</a>
-<nav class="header-nav">
-<ul class="nav-list">
-    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-    <li class="nav-item"><a href="#" class="nav-link">Service</a></li>
-    <li class="nav-item"><a href="#" class="nav-link">Work</a></li>
-    <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-</ul>
-</nav>
-</div>
-</header>
-<!-- header end -->
-<main class="main">
-<!-- section about "working with" -->
-<section class="hero">
-    <div class="container">
-    <p class="hero-subtitle">We work with</p>
-    <h2 class="hero-title">Amazing services</h2> 
-    <ul class="hero-list">
-     <li class="hero-item">
-        <article class="hero-article">
-            <img src="./images/icons/group.png" alt="Годинник" class="hero-img">
-            <h3 class="hero-article-title">Photography</h3>
-            <p class="hero-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, sint?</p>
-        </article>
-    </li>
-    <li class="hero-item">
-        <article class="hero-article">
-            <img src="./images/icons/bargraph.png" alt="стрілка росту" class="hero-img">
-            <h3 class="hero-article-title">Photography</h3>
-            <p class="hero-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, corporis.</p>
-        </article>
-    </li>
-    <li class="hero-item">
-        <article class="hero-article-title">
-            <img src="./images/icons/Groupeone.png" alt="Телевізор" class="hero-img">
-            <h3 class="hero-title">Photography</h3>
-            <p class="hero-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, dolorum.</p>
-        </article>
-    </li>
-    <li class="hero-item">
-        <article class="hero-article-title">
-            <img src="./images/icons/lineicons.png" alt="list" class="hero-img">
-            <h3 class="hero-title">Photography</h3>
-            <p class="hero-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, at!</p>
-        </article>
-    </li>
-    <li class="hero-item">
-        <article class="hero-article">
-            <img src="./images/icons/homefisr.png" alt="home" class="hero-img">
-            <h3 class="hero-article-title">Photography</h3>
-            <p class="hero-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, et!</p>
-        </article>
-    </li>
-    <li class="hero-item">
-        <article class="hero-article">
-            <img src="./images/icons/-marketing.png" alt="targets" class="hero-img">
-            <h3 class="hero-article-title">Photography</h3>
-            <p class="hero-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, libero!</p>
-        </article>
-    </li>
-    </ul>
-    </div>
-</section>
-<!-- section about "working with" end -->
-<!-- we -->
- <section class="team">
-    <div class="container">
-        <p class="team-subtitle">who we are?</p>
-<h2 class="team-title">Meet our team</h2>
-<p class="team-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, aliquam cum. Quae dignissimos quod explicabo!</p>
-<ul class="team-list">
-    <li class="team-item">
-        <article class="team-article">
-            <img src="./images/photos/matthew-dix.png" alt="Matthew" class="team-article-img">
-            <h3 class="team-article-title">Matthew Dix</h3>
-            <p class="team-article-desc">Graphic Design</p>
-        </article>
-        </li>
-    <li class="team-item">
-            <article class="team-article">
-                <img src="./images/photos/cristopher-campbell.png" alt="Christopher" class="team-article-img">
+    <link
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a href="index.html" class="header-logo">MoGo</a>
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Service</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Work</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- header end -->
+    <main class="main">
+      <!-- section about "working with" -->
+      <section class="hero">
+        <div class="container hero-container">
+          <p class="hero-subtitle">We work with</p>
+          <h2 class="hero-title">Amazing services</h2>
+          <ul class="hero-list">
+            <li class="hero-item">
+              <article class="hero-article">
+                <img
+                  src="./images/icons/group.png"
+                  alt="Годинник"
+                  class="hero-img"
+                />
+                <h3 class="hero-article-title">Photography</h3>
+                <p class="hero-desc">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima, sint?
+                </p>
+              </article>
+            </li>
+            <li class="hero-item">
+              <article class="hero-article">
+                <img
+                  src="./images/icons/bargraph.png"
+                  alt="стрілка росту"
+                  class="hero-img"
+                />
+                <h3 class="hero-article-title">Photography</h3>
+                <p class="hero-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi, corporis.
+                </p>
+              </article>
+            </li>
+            <li class="hero-item">
+              <article class="hero-article">
+                <img
+                  src="./images/icons/Groupeone.png"
+                  alt="Телевізор"
+                  class="hero-img"
+                />
+                <h3 class="hero-article-title">Photography</h3>
+                <p class="hero-desc">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Assumenda, dolorum.
+                </p>
+              </article>
+            </li>
+            <li class="hero-item">
+              <article class="hero-article">
+                <img
+                  src="./images/icons/lineicons.png"
+                  alt="list"
+                  class="hero-img"
+                />
+                <h3 class="hero-article-title">Photography</h3>
+                <p class="hero-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat, at!
+                </p>
+              </article>
+            </li>
+            <li class="hero-item">
+              <article class="hero-article">
+                <img
+                  src="./images/icons/homefisr.png"
+                  alt="home"
+                  class="hero-img"
+                />
+                <h3 class="hero-article-title">Photography</h3>
+                <p class="hero-desc">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Saepe, et!
+                </p>
+              </article>
+            </li>
+            <li class="hero-item">
+              <article class="hero-article">
+                <img
+                  src="./images/icons/-marketing.png"
+                  alt="targets"
+                  class="hero-img"
+                />
+                <h3 class="hero-article-title">Photography</h3>
+                <p class="hero-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Deleniti, libero!
+                </p>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- section about "working with" end -->
+      <!-- we -->
+      <section class="team">
+        <div class="container team-container">
+          <p class="team-subtitle">who we are?</p>
+          <h2 class="team-title">Meet our team</h2>
+          <p class="team-desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <ul class="team-list">
+            <li class="team-item">
+              <article class="team-article">
+                <img
+                  src="./images/photos/matthew-dix.png"
+                  alt="Matthew"
+                  class="team-img"
+                />
+                <h3 class="team-article-title">Matthew Dix</h3>
+                <p class="team-article-desc">Graphic Design</p>
+              </article>
+            </li>
+            <li class="team-item">
+              <article class="team-article">
+                <img
+                  src="./images/photos/cristopher-campbell.png"
+                  alt="Christopher"
+                  class="team-img"
+                />
                 <h3 class="team-article-title">Christopher Campbell</h3>
                 <p class="team-article-desc">Brending/UX design</p>
-            </article>
-        </li>
-    <li class="team-item">
-                <article class="team-article">
-                    <img src="./images/photos/michael-fertig.png" alt="Michael" class="team-article-img">
-                    <h3 class="team-article-title">Michael Fertig</h3>
-                    <p class="team-article-desc">Developer</p>
-                </article>
-                <!-- we end -->
-    </li>
-</ul>
-</div>
-</section>
-
-</main>
-<!-- footer -->
-<footer class="footer">
-    <div class="container">
-<p class="footer-desc">&copy; MoGo free PSD template by</p> <a href="" class="footer-link">Laaqiq</a>
-<form class="footer-form">
-    <input type="email" placeholder="Your Email..." class="footer-input"> <button type="submit" class="footer-button">SUBSCRIBE</button>
-</form>
-</div>
+              </article>
+            </li>
+            <li class="team-item">
+              <article class="team-article">
+                <img
+                  src="./images/photos/michael-fertig.png"
+                  alt="Michael"
+                  class="team-img"
+                />
+                <h3 class="team-article-title">Michael Fertig</h3>
+                <p class="team-article-desc">Developer</p>
+              </article>
+              <!-- we end -->
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container footer-container">
+        <p class="footer-desc">
+          &copy; MoGo free PSD template by
+          <a href="" class="footer-link">Laaqiq</a>
+        </p>
+        <form class="footer-form">
+          <input type="email" placeholder="Your Email..." />
+          <button type="submit" class="footer-button">SUBSCRIBE</button>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
 </footer>
 
 </body>
