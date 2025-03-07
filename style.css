@@ -17,17 +17,20 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
+
 .header-container {
   display: flex;
   justify-content: space-between;
   padding-top: 17px;
 }
+
 .header-nav {
   padding-top: 15;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
 }
+
 .nav-list {
   display: flex;
   justify-content: space-between;
@@ -44,53 +47,65 @@ body {
   margin: 0 auto;
   flex-wrap: wrap;
 }
+
 .hero-title {
   margin: 0 auto;
   padding-bottom: 109px;
 }
+
 .hero-subtitle {
   margin: 0 auto;
   padding-top: 68px;
   padding-bottom: 20px;
 }
+
 .hero-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding-bottom: 100px;
 }
+
 .hero-item {
   height: 74px;
 }
+
 .hero-item:nth-child(-n+2) {
   width: 330px;
 }
+
 .hero-item:nth-child(-n+3) {
- margin-bottom: 102px;
+  margin-bottom: 102px;
 }
+
 .hero-item:nth-child(n+3) {
   width: 367px;
 }
+
 .hero-item:nth-child(n+3) {
   padding-bottom: 100px;
 }
+
 .team-container {
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
 }
+
 .team-subtitle {
   padding-left: 543px;
   padding-right: 544px;
   margin: 0 auto;
 }
+
 .team-title {
- padding-bottom: 85px;
- padding-left: 484px;
- padding-right: 484px;
-margin: 0 auto;
-margin-top: 17px;
+  padding-bottom: 85px;
+  padding-left: 484px;
+  padding-right: 484px;
+  margin: 0 auto;
+  margin-top: 17px;
 }
+
 .team-desc {
   padding-bottom: 27px;
   margin: 0 auto;
@@ -99,6 +114,7 @@ margin-top: 17px;
   flex-wrap: wrap;
   text-align: center;
 }
+
 .team-list {
   display: flex;
   justify-content: space-between;
@@ -106,6 +122,7 @@ margin-top: 17px;
   margin: 0 auto;
   padding-bottom: 80px;
 }
+
 .footer-container {
   display: flex;
   justify-content: space-between;
@@ -116,11 +133,13 @@ margin-top: 17px;
   padding-top: 22px;
   padding-bottom: 20px;
 }
+
 .footer-form {
   height: 40px;
   display: flex;
   align-content: end;
 }
+
 .footer-button {
   padding-top: 10px;
   padding-bottom: 10px;
