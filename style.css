@@ -125,16 +125,14 @@ body {
 
 .hero-list {
   display: flex;
-  gap: 70px;
-}
-
-.hero-list-two {
-  display: flex;
-  gap: 70px;
+  flex-wrap: wrap;
+  row-gap: 52px;
+  column-gap: 105px;
 }
 
 .hero-item {
   padding-bottom: 100px;
+  flex-basis: calc((100% - 70px) / 3);
 }
 
 .hero-article {
@@ -161,11 +159,14 @@ body {
   font-weight: 400;
   padding-left: 19px;
   padding-top: 20px;
+  width: 310px;
 }
 
-.hero-article-img {
+.hero-article-image {
   padding-top: 3px;
   padding-bottom: 34px;
+  color: var(--nav-text-color);
+  font-size: 37px;
 }
 
 .team {
