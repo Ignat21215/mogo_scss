@@ -126,8 +126,8 @@ body {
 .hero-list {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 70px;
-  column-gap: 10px;
+  row-gap: 100px;
+  column-gap: 70px;
   justify-content: center;
 }
 
