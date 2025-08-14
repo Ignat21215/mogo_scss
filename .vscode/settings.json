@@ -1,5 +1,4 @@
 {
-    {
   "files.autoSave": "afterDelay",
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
@@ -20,13 +19,18 @@
   "git.enableSmartCommit": true,
   "git.autofetch": true,
   "liveServer.settings.donotShowInfoMsg": true,
-  "liveSassCompile.settings.generateMap": false, 
-"liveSassCompile.settings.formats": [
-  {
-    "format": "expanded",
-    "extensionName": ".css",
-    "savePath": "/css"
-  }
-]}
-
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css",
+      "savePathReplacementPairs": null
+    }
+  ],
+  "workbench.colorTheme": "Codecourse Contrast (rainglow)",
+  "background.windowBackgrounds": [
+    "c:/Users/Master/OneDrive/Робочий стіл/умные обои/35-08-1-1280x720.jpg"
+  ]
 }
