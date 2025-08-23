@@ -278,6 +278,12 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.hero__icon {
+  fill: rgb(149, 225, 211);
+}
+.hero__icon:hover {
+  fill: rgb(243, 129, 129);
+}
 .hero__item {
   -ms-flex-preferred-size: calc((100% - 200px) / 3);
       flex-basis: calc((100% - 200px) / 3);

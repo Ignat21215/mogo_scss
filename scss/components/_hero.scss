@@ -20,6 +20,14 @@
     justify-content: center;
   }
 
+  &__icon {
+    fill: $nav-text-color;
+
+    &:hover {
+      fill: $focus-text-color;
+    }
+  }
+
   &__item {
     flex-basis: calc((100% - 200px) / 3);
   }
