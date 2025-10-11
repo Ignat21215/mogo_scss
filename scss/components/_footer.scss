@@ -39,7 +39,9 @@
     border-width: 1px;
     border-color: $paragraph-color;
     border-style: solid;
-    padding: 12px 145px 11px 10px;
+    padding: 12px 10px 11px 10px;
+    width: 230px;
+    border-right: 0;
   }
 
   &__button {
