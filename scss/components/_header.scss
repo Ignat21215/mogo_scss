@@ -17,10 +17,7 @@
 
   &__link {
     color: $nav-text-color;
-    font-weight: 400;
     font-size: 14px;
-    line-height: auto;
-    letter-spacing: 0;
     text-transform: uppercase;
 
     &:hover {
@@ -34,8 +31,6 @@
   &__logo {
     font-size: 30px;
     font-weight: 700;
-    line-height: 100%;
-    letter-spacing: 0%;
     color: $nav-text-color;
   }
 }

@@ -41,8 +41,6 @@
     font-variant: small-caps;
     font-size: 14px;
     font-weight: 400;
-    letter-spacing: 0;
-    line-height: auto;
     padding-left: 20px;
   }
 
@@ -50,17 +48,15 @@
     color: $paragraph-color;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 0;
     line-height: 22px;
-    font-weight: 400;
     padding-left: 19px;
     padding-top: 20px;
-    width: 310px;
   }
 
   &__icon {
     width: 37px;
     height: 37px;
+    flex-shrink: 0;
   }
 }
 
